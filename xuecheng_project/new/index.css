@@ -1,0 +1,45 @@
+/* index.css intends to decrate index.html */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.clearfix::before,.clearfix::after{
+    content: "";
+    display: table;
+}
+
+.clearfix::after{
+    clear: both;
+}
+
+body{
+    background-color: #f3f5f7;
+
+}
+
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 41px;
+    background-color: pink;
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
+    margin: 30px auto;
+}
